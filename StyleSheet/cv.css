@@ -592,6 +592,9 @@ svg circle:nth-child(2) {
 
  @media screen and (min-width: 750px) and (max-width: 1050px) {
 
+    circle {
+        width: 80%;
+    }
     #ancreUne {
         display: unset;
         }
@@ -623,23 +626,32 @@ svg circle:nth-child(2) {
         width: auto;
         height: auto;
         padding: 5px;
+        width: 25%;
+        margin-top: 5%;
         }
-        figure img {
-            width: auto;
-            border-radius: 0%;
-            height: 100%;
-            display: flex;
-            border: none;
-            border-right: grey solid 5px;
-        }
-        figure {
-            display: flex;
-            width: 100%;
-            margin: 0;
-        }
-        span {
-            width: 50%;
-        }
+    .container {
+        flex-wrap: wrap;
+    }
+    .elLogo {
+        display: none;
+    }
+    figure img {
+        width: auto;
+        border-radius: 0%;
+        height: 100%;
+        display: flex;
+        border: none;
+        border-right: grey solid 5px;
+    }
+    figure {
+        display: flex;
+        width: 100%;
+        margin: 0;
+    }
+    span {
+        width: 50%;
+    }
+        
     }
     @media screen and (min-width: 350px) and (max-width: 500px) {
     
