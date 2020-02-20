@@ -128,6 +128,29 @@ header h1 {
     flex-wrap: wrap;
     padding-top: 4%;
 }
+#sectionTwo {
+    background-color:rgb(25, 25, 25);
+    border: solid
+    #777 4px;
+    margin-top: 2%;
+    width: 100%;
+    text-align: center;
+    transition: 0.5s;
+}
+#sectionTwo p {
+    color: white;
+    font-size: 125%;
+    padding: 10px;
+}
+#sectionTwo h1 {
+    color: white;
+    font-size: 150%;
+    padding: 10px;
+}
+#sectionTwo:hover {
+    transition: 0.5s;
+    border: #fff solid 4px;
+}
 aside {
     width: 20%;
     height: 548px;
