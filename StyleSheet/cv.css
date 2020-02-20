@@ -132,15 +132,22 @@ header h1 {
     background-color:rgb(25, 25, 25);
     border: solid
     #777 4px;
-    margin-top: 2%;
-    width: 100%;
+    width: 91%;
     text-align: center;
     transition: 0.5s;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 2%;
 }
 #sectionTwo p {
     color: white;
     font-size: 125%;
     padding: 10px;
+}
+#sectionTwo img {
+    margin: auto;
+
 }
 #sectionTwo h1 {
     color: white;
@@ -677,7 +684,9 @@ svg circle:nth-child(2) {
         
     }
     @media screen and (min-width: 350px) and (max-width: 500px) {
-    
+        #sectionTwo img {
+            width: 125px;
+        }
         section {
             display: unset;
             }
