@@ -139,6 +139,7 @@ header h1 {
     flex-wrap: wrap;
     margin: auto;
     margin-top: 2%;
+    margin-bottom: 3%;
 }
 #sectionTwo p {
     color: white;
