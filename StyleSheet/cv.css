@@ -305,6 +305,10 @@ svg circle:nth-child(2) {
     stroke: #ffda3e;
     stroke-dashoffset: 264;
 }
+.card:nth-child(5)  svg circle:nth-child(2) {
+    stroke: #b15fff;
+    stroke-dashoffset: 264;
+}
 .container {
     position: relative;
     width: 100%;
@@ -314,7 +318,7 @@ svg circle:nth-child(2) {
 }
 .container .card {
     position: relative;
-    width: 250px;
+    width: 200px;
     background: linear-gradient(0deg,#1b1b1b,#222,#1b1b1b);
     display: flex;
     justify-content: center;
