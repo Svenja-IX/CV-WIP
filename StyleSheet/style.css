@@ -208,11 +208,7 @@ figure li {
     width: 450px;
 }
 figure img {
-<<<<<<< Updated upstream
-    width: -moz- available;
-=======
     width: 100%;
->>>>>>> Stashed changes
     height: auto;
     border-radius: 50%;
     border: solid #777 2px;
