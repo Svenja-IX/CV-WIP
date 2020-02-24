@@ -208,7 +208,7 @@ figure li {
     width: 450px;
 }
 figure img {
-    width: 290px;
+    width: -moz- available;
     height: auto;
     border-radius: 50%;
     border: solid #777 2px;
