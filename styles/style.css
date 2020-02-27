@@ -2,6 +2,11 @@
     font-family: 'BebasNeue-Regular';
     src: url('BebasNeue-Regular.otf');
     src: url('BebasNeue-Regular.otf') format('embedded-opentype'),
+}
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url('Montserrat-Light.ttf');
+    src: url('Montserrat-Light.ttf') format('embedded-opentype'),
 }   
 @font-face {
     font-family: 'BebasNeue-Regular';
@@ -150,11 +155,6 @@ header h1 {
     margin: auto;
 
 }
-#sectionTwo h1 {
-    color: white;
-    font-size: 150%;
-    padding: 10px;
-}
 #sectionTwo:hover {
     transition: 0.5s;
     border: #fff solid 4px;
@@ -256,9 +256,14 @@ ul {
     font-size: large;
     
 }
-#cv {
-    width: 40%;
-    margin-left: 30%;
+.cv {
+   font-family: 'Montserrat-Light';
+   justify-content: center;
+   display: flex;
+   color: #e93e30;
+   font-size: 30px;
+   text-align: center;
+   width:100%;
 }
 #qualités-image {
     padding: 10px;
@@ -274,6 +279,7 @@ ul {
 #bloc-xp ul {
     margin: auto;
     font-size: 200%;
+    padding-bottom: 20px;
 }
 #bloc-competences {
     background-color: rgb(25, 25, 25);
@@ -336,8 +342,12 @@ svg circle:nth-child(2) {
     stroke-dashoffset: 264;
 }
 .card:nth-child(5)  svg circle:nth-child(2) {
-    stroke: #b15fff;
+    stroke: #55baa2;
     stroke-dashoffset: 264;
+}
+.card:nth-child(6)  svg circle:nth-child(2) {
+    stroke: #b15fff ;
+    stroke-dashoffset: 310;
 }
 .container {
     position: relative;
