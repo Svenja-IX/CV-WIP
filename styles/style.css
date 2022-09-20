@@ -326,28 +326,28 @@ svg circle:nth-child(2) {
 }
 .card:nth-child(1)  svg circle:nth-child(2) {
     stroke: #e93e30;
-    stroke-dashoffset: 110;
+    stroke-dashoffset: 220;
 }
 .card:nth-child(2)  svg circle:nth-child(2) {
     stroke: #006eba;
-    stroke-dashoffset: 132;
+    stroke-dashoffset: 220;
    
 }
 .card:nth-child(3)  svg circle:nth-child(2) {
     stroke: #001721;
-    stroke-dashoffset: 220;
+    stroke-dashoffset: 396;
 }
 .card:nth-child(4)  svg circle:nth-child(2) {
     stroke: #ffda3e;
-    stroke-dashoffset: 264;
+    stroke-dashoffset: 308;
 }
 .card:nth-child(5)  svg circle:nth-child(2) {
     stroke: #55baa2;
-    stroke-dashoffset: 264;
+    stroke-dashoffset: 352;
 }
 .card:nth-child(6)  svg circle:nth-child(2) {
     stroke: #b15fff ;
-    stroke-dashoffset: 330;
+    stroke-dashoffset: 242;
 }
 .container {
     position: relative;
